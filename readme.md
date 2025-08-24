@@ -1,3 +1,7 @@
+# Custom Linux System Call: gettaskinfo()
+
+This project involves implementing a custom Linux system call gettaskinfo in kernel version 5.10.223 on Ubuntu 22.04. The system call retrieves essential process information — state, start time, and normal priority — from the kernel’s task structure for a given PID. A user-space C library wrapper (libgettaskinfo) is developed to simplify interaction, returning results in a structured format. A test C program demonstrates the system call’s functionality and error handling (-ESRCH, -EFAULT).
+
 ## Place Folder and Code in Right places
 
 ** to complete step 1 and 2 run ```./place.sh```
